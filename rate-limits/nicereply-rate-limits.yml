@@ -1,0 +1,37 @@
+name: Nicereply API Rate Limits
+description: Rate limit policies for the Nicereply REST API.
+url: https://www.nicereply.com/api-policy
+enforcement:
+  current: none
+  notes: Nicereply currently does not enforce rate limits on API requests. However, the company reserves the right to limit requests if unusually high-volume traffic is detected.
+policy:
+  unusualHighVolume: true
+  reservesRightToLimit: true
+  contact: contact@nicereply.com
+limits: []
+errorCode: 429
+errorDescription: HTTP 429 Too Many Requests is returned when rate limits are exceeded, though no specific thresholds are documented.
+authentication:
+  type: Basic HTTP Authentication
+  description: Username can be left blank; use the private API key as the password. API keys are generated upon request and must be kept confidential.
+  header: Authorization
+versioning:
+  current: v1
+  baseUrl: https://api.nicereply.com/v1/
+  legacySupport: true
+  legacyNote: Numerical IDs deprecated in August 2023 in favor of UUIDs; legacy endpoints temporarily supported.
+breakingChanges:
+  nonCriticalNotice: 30 days
+  criticalNotice: 60 days
+pagination:
+  defaultPerPage: 10
+  maxPerPage: 100
+  parameters:
+    - page
+    - per_page
+notes:
+  - No hard rate limits are currently published or enforced
+  - Nicereply reserves the right to throttle or block abusive usage patterns
+  - API Policy available at https://www.nicereply.com/api-policy
+  - Single API version; no versioning system beyond v1
+  - Non-breaking changes (new fields/endpoints) may be added without notice

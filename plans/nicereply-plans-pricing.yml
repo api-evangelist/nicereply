@@ -1,0 +1,120 @@
+name: Nicereply Plans and Pricing
+description: Pricing plans for Nicereply customer satisfaction survey platform covering CSAT, CES, and NPS surveys.
+url: https://www.nicereply.com/pricing
+plans:
+  - name: Starter
+    description: Entry-level plan for small teams getting started with customer satisfaction surveys.
+    price: 79
+    unit: month
+    currency: USD
+    billing:
+      - monthly
+      - annually
+    annualPrice: 59
+    annualUnit: month
+    annualCurrency: USD
+    features:
+      - CSAT, CES, and NPS surveys
+      - 100 responses per month
+      - 3 user seats
+      - Unlimited active surveys
+      - Multiple distribution channels (email, pop-up, link surveys)
+      - Feedback analytics
+      - Custom survey design
+      - Integration support (Zendesk, Front, Helpscout, Pipedrive, and others)
+    limits:
+      responses: 100
+      seats: 3
+  - name: Essential
+    description: For growing teams needing more responses and user seats.
+    price: 149
+    unit: month
+    currency: USD
+    billing:
+      - monthly
+      - annually
+    annualPrice: 119
+    annualUnit: month
+    annualCurrency: USD
+    features:
+      - CSAT, CES, and NPS surveys
+      - 250 responses per month
+      - 10 user seats
+      - Unlimited active surveys
+      - Multiple distribution channels (email, pop-up, link surveys)
+      - Feedback analytics
+      - Custom survey design
+      - Integration support (Zendesk, Front, Helpscout, Pipedrive, and others)
+    limits:
+      responses: 250
+      seats: 10
+  - name: Growth
+    description: For scaling teams with high survey volume requirements.
+    price: 299
+    unit: month
+    currency: USD
+    billing:
+      - monthly
+      - annually
+    annualPrice: 239
+    annualUnit: month
+    annualCurrency: USD
+    features:
+      - CSAT, CES, and NPS surveys
+      - 1000 responses per month
+      - 25 user seats
+      - Unlimited active surveys
+      - Multiple distribution channels (email, pop-up, link surveys)
+      - Feedback analytics
+      - Custom survey design
+      - Integration support (Zendesk, Front, Helpscout, Pipedrive, and others)
+    limits:
+      responses: 1000
+      seats: 25
+  - name: Business
+    description: For large teams with high volume and extended seat requirements.
+    price: 449
+    unit: month
+    currency: USD
+    billing:
+      - monthly
+      - annually
+    annualPrice: 359
+    annualUnit: month
+    annualCurrency: USD
+    features:
+      - CSAT, CES, and NPS surveys
+      - 2500 responses per month
+      - 50 user seats
+      - Unlimited active surveys
+      - Multiple distribution channels (email, pop-up, link surveys)
+      - Feedback analytics
+      - Custom survey design
+      - Integration support (Zendesk, Front, Helpscout, Pipedrive, and others)
+    limits:
+      responses: 2500
+      seats: 50
+  - name: Enterprise
+    description: Custom plan for large organizations with specific requirements.
+    price: custom
+    unit: month
+    currency: USD
+    billing:
+      - annually
+    features:
+      - CSAT, CES, and NPS surveys
+      - Custom response limits
+      - Custom user seats
+      - Unlimited active surveys
+      - Multiple distribution channels (email, pop-up, link surveys)
+      - Feedback analytics
+      - Custom survey design
+      - Integration support (Zendesk, Front, Helpscout, Pipedrive, and others)
+      - Dedicated support
+notes:
+  - 14-day free trial available, no credit card required
+  - 30-day money back guarantee
+  - Annual billing provides approximately 20% discount
+  - Plans automatically upgrade if response or user limits are exceeded
+  - All integrations available on all plans; no feature gating by plan tier
+  - Contact sales for custom response limits or additional seats

@@ -1,0 +1,61 @@
+aid: nicereply
+name: Nicereply
+description: Nicereply is a customer satisfaction and NPS survey platform providing a REST API for managing surveys, accessing ratings and comments, tracking CSAT, CES, and NPS scores, and integrating with helpdesks such as Zendesk, Front, and Helpscout.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/nicereply/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - Customer Satisfaction
+  - CSAT
+  - CES
+  - NPS
+  - Surveys
+  - Helpdesk
+  - Customer Experience
+apis:
+  - aid: nicereply:nicereply-api
+    name: Nicereply API
+    description: REST API for managing customer satisfaction surveys, retrieving ratings and comments, tracking CSAT, CES, and NPS scores, and managing users, teams, and customers within the Nicereply platform.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.nicereply.com/more/developer-api
+    baseURL: https://api.nicereply.com/v1/
+    tags:
+      - Customer Satisfaction
+      - CSAT
+      - CES
+      - NPS
+      - Surveys
+      - Ratings
+    properties:
+      - type: Documentation
+        url: https://cdn.nicereply.com/s/api/latest/
+      - type: APIPolicy
+        url: https://www.nicereply.com/api-policy
+common:
+  - type: Website
+    url: https://www.nicereply.com
+  - type: Documentation
+    url: https://cdn.nicereply.com/s/api/latest/
+  - type: GitHubOrg
+    url: https://github.com/nicereply
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/nicereply
+  - type: Blog
+    url: https://www.nicereply.com/blog/
+  - type: Pricing
+    url: https://www.nicereply.com/pricing
+  - type: StatusPage
+    url: https://stats.uptimerobot.com/M9lQEFqLDv
+  - type: X
+    url: https://twitter.com/nice_reply
+  - type: Plans
+    url: plans/nicereply-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/nicereply-rate-limits.yml
+  - type: FinOps
+    url: finops/nicereply-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

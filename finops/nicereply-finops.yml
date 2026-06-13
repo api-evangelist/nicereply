@@ -1,0 +1,61 @@
+name: Nicereply FinOps
+description: Financial operations and cost management guidance for Nicereply API and platform usage.
+url: https://www.nicereply.com/pricing
+costDrivers:
+  - name: Monthly Responses
+    description: Primary cost driver is the number of survey responses collected per month. Each plan tier defines a response ceiling; exceeding it triggers an automatic plan upgrade.
+    unit: response
+    impact: high
+  - name: User Seats
+    description: Number of agents or users with access to Nicereply. Plan tiers define seat limits with automatic upgrades if exceeded.
+    unit: seat
+    impact: medium
+  - name: Billing Cycle
+    description: Annual billing provides approximately 20% savings over monthly billing.
+    unit: subscription
+    impact: medium
+optimization:
+  - tip: Choose annual billing to save approximately 20% compared to monthly billing.
+  - tip: Monitor monthly response volume closely to avoid automatic plan upgrades mid-cycle.
+  - tip: Use the 14-day free trial to evaluate volume needs before committing to a paid plan.
+  - tip: Audit active user seats regularly; remove inactive agents to stay within plan limits.
+  - tip: Contact sales for custom response limits if standard plans do not match volume needs.
+  - tip: All integrations are available on all plans, so selecting the lowest plan that meets response and seat needs is sufficient.
+budgeting:
+  minimumMonthly: 59
+  minimumAnnual: 708
+  currency: USD
+  trialAvailable: true
+  trialDays: 14
+  creditCardRequired: false
+  moneyBackDays: 30
+automaticUpgrades:
+  enabled: true
+  description: Nicereply automatically upgrades the plan if response or user seat limits are exceeded, which may increase monthly costs unexpectedly.
+  recommendation: Set internal alerts when approaching 80% of monthly response or seat limits.
+planComparison:
+  - plan: Starter
+    monthlyBilledMonthly: 79
+    monthlyBilledAnnually: 59
+    responses: 100
+    seats: 3
+  - plan: Essential
+    monthlyBilledMonthly: 149
+    monthlyBilledAnnually: 119
+    responses: 250
+    seats: 10
+  - plan: Growth
+    monthlyBilledMonthly: 299
+    monthlyBilledAnnually: 239
+    responses: 1000
+    seats: 25
+  - plan: Business
+    monthlyBilledMonthly: 449
+    monthlyBilledAnnually: 359
+    responses: 2500
+    seats: 50
+  - plan: Enterprise
+    monthlyBilledMonthly: custom
+    monthlyBilledAnnually: custom
+    responses: custom
+    seats: custom
