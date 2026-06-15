@@ -1,7 +1,7 @@
 {
   "provider": "nicereply",
   "source": "https://www.nicereply.com/blog/",
-  "fetched": "2026-06-13",
+  "fetched": "2026-06-14T20:42:17Z",
   "posts": [
     {
       "title": "What is Omnichannel? Definitions, Examples & Multichannel Comparison",
@@ -57,5 +57,13 @@
       "category": "Leadership",
       "read_time": "8 min"
     }
-  ]
+  ],
+  "repo": "nicereply",
+  "feeds": [
+    {
+      "source": "https://www.linkedin.com/company/nicereply",
+      "error": "HTTPError"
+    }
+  ],
+  "post_count": 0
 }
