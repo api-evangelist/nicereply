@@ -1,7 +1,7 @@
 aid: nicereply
 name: Nicereply
 description: Nicereply is a customer satisfaction and NPS survey platform providing a REST API for managing surveys, accessing ratings and comments, tracking CSAT, CES, and NPS scores, and integrating with helpdesks such as Zendesk, Front, and Helpscout.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/nicereply/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -18,7 +18,7 @@ apis:
   - aid: nicereply:nicereply-api
     name: Nicereply API
     description: REST API for managing customer satisfaction surveys, retrieving ratings and comments, tracking CSAT, CES, and NPS scores, and managing users, teams, and customers within the Nicereply platform.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.nicereply.com/more/developer-api
     baseURL: https://api.nicereply.com/v1/
     tags:
