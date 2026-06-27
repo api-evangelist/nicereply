@@ -1,69 +1,18 @@
 {
-  "provider": "nicereply",
-  "source": "https://www.nicereply.com/blog/",
-  "fetched": "2026-06-14T20:42:17Z",
-  "posts": [
-    {
-      "title": "What is Omnichannel? Definitions, Examples & Multichannel Comparison",
-      "url": "https://www.nicereply.com/blog/what-is-omnichannel/",
-      "category": "Education & Development",
-      "read_time": "8 min"
-    },
-    {
-      "title": "9 Best Google Forms Alternatives for a Better Experience",
-      "url": "https://www.nicereply.com/blog/9-best-google-forms-alternatives-for-a-better-experience/",
-      "category": "Working in Support",
-      "read_time": "8 min"
-    },
-    {
-      "title": "What is a Likert Scale? How to Utilize it in Surveys + Examples",
-      "url": "https://www.nicereply.com/blog/likert-scale/",
-      "category": "Education & Development",
-      "read_time": "9 min"
-    },
-    {
-      "title": "Demographic Survey Questions: How to Ask Them (+ Examples)",
-      "url": "https://www.nicereply.com/blog/demographic-survey-questions/",
-      "category": "Education & Development",
-      "read_time": "8 min"
-    },
-    {
-      "title": "The Role of Customer Effort Score (CES) in Improving SaaS CX",
-      "url": "https://www.nicereply.com/blog/role-of-customer-effort-score/",
-      "category": "CES",
-      "read_time": "9 min"
-    },
-    {
-      "title": "What Is a Feedback Survey? Steps to Create Your Own (+ Examples)",
-      "url": "https://www.nicereply.com/blog/what-is-feedback/",
-      "category": "Education & Development",
-      "read_time": "8 min"
-    },
-    {
-      "title": "7 Customer Loyalty Strategies for Delivering Exceptional Service",
-      "url": "https://www.nicereply.com/blog/customer-loyalty-strategies/",
-      "category": "Education & Development",
-      "read_time": "8 min"
-    },
-    {
-      "title": "Customer Satisfaction: Definition, Importance & How to Measure",
-      "url": "https://www.nicereply.com/blog/customer-satisfaction/",
-      "category": "CSAT",
-      "read_time": "8 min"
-    },
-    {
-      "title": "What is the 80/20 Rule? Accelerating Business Outcomes through the Pareto Principle",
-      "url": "https://www.nicereply.com/blog/what-is-the-80-20-rule/",
-      "category": "Leadership",
-      "read_time": "8 min"
-    }
-  ],
   "repo": "nicereply",
   "feeds": [
+    {
+      "source": "https://www.nicereply.com/blog/feed/",
+      "feed_url": "https://www.nicereply.com/blog/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
     {
       "source": "https://www.linkedin.com/company/nicereply",
       "error": "HTTPError"
     }
   ],
-  "post_count": 0
+  "fetched": "2026-06-27T12:03:07Z",
+  "post_count": 4
 }
