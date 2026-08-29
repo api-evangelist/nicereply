@@ -1,6 +1,17 @@
 aid: nicereply
 name: Nicereply
 description: Nicereply is a customer satisfaction and NPS survey platform providing a REST API for managing surveys, accessing ratings and comments, tracking CSAT, CES, and NPS scores, and integrating with helpdesks such as Zendesk, Front, and Helpscout.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: paid
   onboarding: unknown
