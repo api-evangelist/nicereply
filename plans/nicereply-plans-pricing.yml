@@ -122,3 +122,47 @@ notes:
   - Plans automatically upgrade if response or user limits are exceeded
   - All integrations available on all plans; no feature gating by plan tier
   - Contact sales for custom response limits or additional seats
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - negotiated
+  - subscription
+  units:
+  - period
+  plans:
+  - name: Starter
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - period
+    periods: []
+  - name: Essential
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - period
+    periods: []
+  - name: Growth
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - period
+    periods: []
+  - name: Business
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - period
+    periods: []
+  - name: Enterprise
+    access: other
+    model: negotiated
+    model_how: derived
+    units:
+    - period
+    periods: []
