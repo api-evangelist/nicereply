@@ -30,7 +30,6 @@ created: '2026-06-13'
 modified: '2026-06-13'
 specificationVersion: '0.23'
 tags:
-  - Customer Satisfaction
   - CSAT
   - CES
   - NPS
@@ -53,6 +52,12 @@ apis:
     humanURL: https://www.nicereply.com/more/developer-api
     baseURL: https://api.nicereply.com/v1/
     tags:
+      - CSAT
+      - CES
+      - NPS
+      - Surveys
+      - Ratings
+    tags_raw:
       - Customer Satisfaction
       - CSAT
       - CES
